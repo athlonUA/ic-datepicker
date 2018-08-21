@@ -10,11 +10,11 @@ type datepickerPosition = 'top' | 'bottom';
 
 export const defaultDayQuickOptions = [
   {
-    label: 'Today',
+    label: 'Cегодня',
     date: moment()
   },
   {
-    label: 'Tomorrow',
+    label: 'Завтра',
     date: moment().add(1, 'day')
   }
 ];
